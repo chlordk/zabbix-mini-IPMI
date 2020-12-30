@@ -30,12 +30,12 @@ As prerequisites you need `python3`, `lm-sensors`, `smartmontools`, `sudo` and `
 Take a look at scripts first lines and provide paths if needed. If you have custom RAID configuration, also provide that by hand. Import `Template_mini-IPMI_v2.xml` in zabbix web interface.
 ### Debian / Ubuntu
 ```bash
-client# apt install python3 sudo zabbix-agent zabbix-sender smartmontools lm-sensors
+client# apt install python3 sudo zabbix-agent smartmontools lm-sensors
 server# apt install zabbix-get
 ```
 ### Centos
 ```bash
-client# yum install python3 sudo zabbix-agent zabbix-sender smartmontools lm_sensors
+client# yum install python3 sudo zabbix-agent smartmontools lm_sensors
 server# yum install zabbix-get
 ```
 ### First step
